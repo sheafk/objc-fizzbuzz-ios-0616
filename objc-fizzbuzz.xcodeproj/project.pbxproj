@@ -37,11 +37,9 @@
 		6F483D4E017BD9A005E36220 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		7193405D6026CBD4CFC33516 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78A6AE892E85E540E36CDBE6 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		89129BA0A24A8012186074E7 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		8EA62BA5FE20671B4C146C37 /* objc-fizzbuzz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-fizzbuzz-Info.plist"; sourceTree = "<group>"; };
 		B825B11E0466229FC3CA5AA2 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		BB58254938D168825C1C1F8B /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA438E048A1F67CC34A97011 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0CC0E9AC1F4809389737A17 /* objc-fizzbuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-fizzbuzz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,21 +99,11 @@
 				BB0A48C1E7AB180CD5299A59 /* UnitTests */,
 				1FEC8746ECA22666292C7EF6 /* Frameworks */,
 				3DF8932CC21DA651CCA3FE19 /* Products */,
-				9A0C6EF0CE8BED4D9ED35224 /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
 			tabWidth = 4;
 			usesTabs = 0;
-		};
-		9A0C6EF0CE8BED4D9ED35224 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				89129BA0A24A8012186074E7 /* Pods-unit_tests.release.xcconfig */,
-				DA438E048A1F67CC34A97011 /* Pods-unit_tests.debug.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
 		};
 		AAC3B8D0ABCAB21D9186B1E2 /* iOS */ = {
 			isa = PBXGroup;
@@ -399,7 +387,6 @@
 		};
 		CE16D21EEA20D8D744D7BAB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA438E048A1F67CC34A97011 /* Pods-unit_tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-fizzbuzz.app/objc-fizzbuzz";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -467,7 +454,6 @@
 		};
 		DBCC7C9B076402953BA421DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89129BA0A24A8012186074E7 /* Pods-unit_tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc-fizzbuzz.app/objc-fizzbuzz";
 				FRAMEWORK_SEARCH_PATHS = (
