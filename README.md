@@ -19,7 +19,9 @@
 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz,  
 31 ...
 
-In this code-along, we're going to use the FizzBuzz exercise to practice writing a `for` loop. *We will* ***not*** *be writing an ideal implementation of FizzBuzz.*
+In this code-along, we're going to use the FizzBuzz exercise to practice writing a `for` loop.
+
+**Note:** *We will* ***not*** *be writing an ideal implementation of FizzBuzz.*
 
 ## Instructions
 
@@ -261,4 +263,4 @@ Buzz
 
 1. The FizzBuzz exercise is primarily about best practice and efficiency. Can you identify some of the problems with the implementation of FizzBuzz that we wrote? For starters, it repeats itself, both in the conditional checks, and in the instructions. Can you come up with a better logical structure that doesn't repeat itself?
 
-2. Furthermore, while we did document the starting and ending points for the loop by saving the values into the `start` and `limit` variables, the remainder (`%`) calculations are still written with "magic numbers". Document these values by creating new variables called `fizz` and `buzz` that are set to `3` and `5` respectively.
+2. Furthermore, while we did document the starting and ending points for the loop by saving the values into the `start` and `limit` variables, the remainder (`%`) calculations are still written with "magic numbers". Document these values by creating new variables called `fizzIncrement` and `buzzIncrement` that are set to `3` and `5` respectively.

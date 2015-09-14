@@ -42,15 +42,15 @@
     NSUInteger start = 1;
     NSUInteger limit = 100;
     
-    NSUInteger fizz = 3;
-    NSUInteger buzz = 5;
+    NSUInteger fizzIncrement = 3;
+    NSUInteger buzzIncrement = 5;
     
     for (NSUInteger i = start; i <= limit; i++) {
         NSString *result = @"";
-        if (i % fizz == 0) {
+        if (i % fizzIncrement == 0) {
             result = @"Fizz";
         }
-        if (i % buzz == 0) {
+        if (i % buzzIncrement == 0) {
             result = [result stringByAppendingString:@"Buzz"];
         }
         if (result.length == 0) {
@@ -65,13 +65,13 @@
     NSUInteger start = 1;
     NSUInteger limit = 100;
     
-    NSUInteger fizz = 3;
-    NSUInteger buzz = 5;
+    NSUInteger fizzIncrement = 3;
+    NSUInteger buzzIncrement = 5;
     
     for (NSUInteger i = start; i <= limit; i++) {
         NSString *result = @"";
-        result = i % fizz == 0 ? @"Fizz" : result;
-        result = i % buzz == 0 ? [result stringByAppendingString:@"Buzz"] : result;
+        result = i % fizzIncrement == 0 ? @"Fizz" : result;
+        result = i % buzzIncrement == 0 ? [result stringByAppendingString:@"Buzz"] : result;
         result = result.length > 0 ? result : [NSString stringWithFormat:@"%lu", i];
         NSLog(@"%@", result);
     }
