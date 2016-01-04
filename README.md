@@ -128,7 +128,7 @@ Fizz
 Fizz
 ...
 ```
-So, why does every multiple of fifteen (`15`) still print "Fuzz"? Remember that an `else if` statement only has a chance to run if none of the `if` or `else if` statements before it runs.
+So, why does every multiple of fifteen (`15`) still print "Fizz"? Remember that an `else if` statement only has a chance to run if none of the `if` or `else if` statements before it runs.
 
 6 — Let's instead start the switch block with an `if` statement that evaluates whether or not the current value of `i` is a multiple of *both* three (`3`) *and* five (`5`). We can use the same remainder logic as the other two evaluations but combine them with "and" logical operator (`&&`). If both of these conditions pass simultaneously, we can set `result` to `@"FizzBuzz"`. We'll also have to alter the current leading `if (i % 3 == 0 ) { ... }` statement into an `else if` statement since it no longer leads the switch block:
 
