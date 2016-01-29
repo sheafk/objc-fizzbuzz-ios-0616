@@ -264,4 +264,4 @@ Buzz
 1. The FizzBuzz exercise is primarily about best practice and efficiency. Can you identify some of the problems with the implementation of FizzBuzz that we wrote? For starters, it repeats itself, both in the conditional checks, and in the instructions. Can you come up with a better logical structure that doesn't repeat itself?
 
 2. Furthermore, while we did document the starting and ending points for the loop by saving the values into the `start` and `limit` variables, the remainder (`%`) calculations are still written with "magic numbers". Document these values by creating new variables called `fizzIncrement` and `buzzIncrement` that are set to `3` and `5` respectively.
-<a href='https://learn.co/lessons/objc-fizzbuzz' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-fizzbuzz' title='FizzBuzz'>FizzBuzz</a> on Learn.co and start learning to code for free.</p>
